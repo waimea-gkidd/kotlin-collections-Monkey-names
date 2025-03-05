@@ -173,7 +173,7 @@ fun deleteFirstMonkey(monkeyList: MutableList<String>) {
     monkeyList.removeAt(0)
 
     // Show some feedback
-    println("Removing monkey: Dave")
+    println("Removing monkey: ${monkeyList[0]}")
 }
 
 
@@ -183,9 +183,10 @@ fun deleteFirstMonkey(monkeyList: MutableList<String>) {
  */
 fun deleteLastMonkey(monkeyList: MutableList<String>) {
     // Remove the last one from the list
-    monkeyList.removeAt(5)
+    println("Removing monkey: ${monkeyList[3]}")
+    monkeyList.removeAt(3)
 
     // Show some feedback
-    println("Removing monkey: ")
+
 }
 
