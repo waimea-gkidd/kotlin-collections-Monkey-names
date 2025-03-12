@@ -174,6 +174,7 @@ fun deleteFirstMonkey(monkeyList: MutableList<String>) {
 
     // Show some feedback
     println("Removing monkey: ${monkeyList[0]}")
+    monkeyList.removeAt(0)
 }
 
 
